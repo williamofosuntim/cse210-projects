@@ -1,5 +1,11 @@
 using System;
 
+// CREATIVITY - Exceeding Requirements:
+// 1. I added a Mood to each Entry (Happy, Sad, Stressed, etc.) so user can track emotions.
+// 2. I added a word count when displaying an entry.
+// 3. I added a check so loading a file that does not exist shows a friendly message instead of crashing.
+// 4. I used "~|~" as a separator so commas and quotes in the journal text do not break saving/loading.
+
 class Program
 {
     static void Main(string[] args)
